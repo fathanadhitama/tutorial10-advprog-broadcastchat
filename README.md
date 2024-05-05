@@ -9,3 +9,8 @@ Pada gambar di atas, terlihat saya coba menjalankan 1 server (pojok kiri) dan 3 
 ![Image 2.2](images/2.2.png)
 
 Setelah mencoba untuk mengganti port dari 2000 menjadi 8080 pada kedua file (client dan server),  alhamdulillah program tetap berjalan dengan baik. Ini terjadi karena sisi server dan sisi client menggunakan port yang sama. Karena jika portnya berbeda, client tidak dapat menemukan port yang tepat dan program tidak akan berjalan seperti semestinya.
+
+## 2.3: Small changes, add IP and Port
+![Image 2.3](images/2.3.png)
+
+Pada gambar di atas, saya mencoba untuk menambah informasi sender ke setiap client dengan menambahkan informasi nama host-nya yaitu komputer saya (LAPTOP-D51R71LN). Saya melakukan hal tersebut dengan menggunakan dependency baru yaitu `gethostname`. Kemudian dependency tersebut diterapkan untuk memodifikasi perintah print pada server dan client untuk menambah hostname dan menghasilkan program yang berjalan seperti gambar di atas.
